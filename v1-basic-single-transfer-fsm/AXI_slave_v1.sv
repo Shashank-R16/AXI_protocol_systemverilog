@@ -103,7 +103,6 @@ always @(posedge clk or negedge reset_n) begin
         else begin
             arready <= 0;
         end
-
         // READ DATA
         if (rvalid && rready) begin
             rvalid <= 0;
@@ -111,5 +110,4 @@ always @(posedge clk or negedge reset_n) begin
 
     end
 end
-
 endmodule
