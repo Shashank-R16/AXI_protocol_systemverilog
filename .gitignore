@@ -1,0 +1,36 @@
+# Simulation executables and build outputs
+build/
+out/
+obj_dir/
+simv
+simv.*
+a.out
+*.out
+*.o
+*.exe
+
+# Waveforms and simulator databases
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.vpd
+*.wlf
+*.fsdb
+*.shm
+*.ucdb
+
+# Simulator logs / generated project state
+*.log
+transcript
+*.jou
+work/
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
